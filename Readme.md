@@ -11,15 +11,18 @@ This is a simple CRUD API built with Express.js and Firebase Realtime Database.
         cd express-firebase-crud-api
 
 2.  Install dependencies:
-    npm install
 
-3.  Obtain serviceAccountKey.json from Firebase Console and place it in the root directory.
+         npm install
 
-4.  Update the Firebase database URL in `index.js`:
-    databaseURL: 'https://your-firebase-database-url.firebaseio.com'
+4.  Obtain serviceAccountKey.json from Firebase Console and place it in the root directory.
 
-5.  Run the server:
-    node index.js
+5.  Update the Firebase database URL in `index.js`:
+
+        databaseURL: 'https://your-firebase-database-url.firebaseio.com'
+
+6.  Run the server:
+
+        node index.js
     the server will be running at 'http://localhost:3000'.
 
 ## Endpoints
@@ -33,7 +36,6 @@ This is a simple CRUD API built with Express.js and Firebase Realtime Database.
 - Body:
 
         // json
-        Copy code
         {
         "title": "Learn Express",
         "description": "Study Express.js for building web applications"
