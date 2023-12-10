@@ -1,6 +1,6 @@
-# Express Firebase CRUD API
+# Express Firebase CRUD Rest-API
 
-This is a simple CRUD API built with Express.js and Firebase Realtime Database.
+This is a simple CRUD Rest-API built with Express.js and Firebase Realtime Database.
 
 ## Getting Started
 
